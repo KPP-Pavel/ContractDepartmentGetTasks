@@ -1,0 +1,25 @@
+.inputFileWrapper {
+    height: 100px;
+
+    >div {
+        height: inherit;
+    }
+
+    .labelFile {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.30);
+        color : rgba(0, 0, 0, 0.60);
+        width : 100%;
+        height: inherit;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .inputFile {
+        display: none;
+    }
+}

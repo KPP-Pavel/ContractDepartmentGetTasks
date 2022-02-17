@@ -1,0 +1,19 @@
+.tasksContainer {
+    height    : calc(100% - 127px);
+    overflow-y: auto;
+}
+
+.paper {
+    padding      : 10px;
+    margin-bottom: 10px;
+}
+
+.titleWrapper {
+    display        : flex;
+    justify-content: space-between;
+
+    >button {
+        position: relative;
+        bottom  : 8px;
+    }
+}

@@ -1,0 +1,12 @@
+.wrapperRoot {
+    display : flex;
+    position: absolute;
+    height  : calc(100% - 111px);
+    width   : 100%;
+}
+
+:global {
+    #content {
+        position: unset !important;
+    }
+}

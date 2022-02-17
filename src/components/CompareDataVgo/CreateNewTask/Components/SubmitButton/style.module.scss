@@ -1,0 +1,9 @@
+.buttonWrapper {
+    display        : flex;
+    justify-content: flex-end;
+
+    >button {
+        margin-left: 10px;
+        width      : 200px;
+    }
+}
